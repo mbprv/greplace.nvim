@@ -57,7 +57,7 @@ and real keystrokes, and a spec run directly under busted has neither. Use its
 ## Demos
 
 The recordings linked from the README are made by
-[nvim-demo](https://github.com/mbfoss/nvim-demo-generator) from
+[nvim-demo](https://github.com/<owner>/nvim-demo-generator) from
 `data/demo/scenes/*.scene`:
 
 ```sh

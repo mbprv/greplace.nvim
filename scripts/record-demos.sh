@@ -5,7 +5,7 @@
 #   scripts/record-demos.sh data/demo/scenes/01-*.scene  # just one
 #
 # Each scene writes its GIF and cast to data/demo/out/. Needs nvim, agg, pyte and
-# ripgrep. nvim-demo (https://github.com/mbfoss/nvim-demo-generator) is used
+# ripgrep. nvim-demo (https://github.com/<owner>/nvim-demo-generator) is used
 # from ~/src when that checkout is there, and cloned into
 # $XDG_CACHE_HOME/greplace.nvim when it is not. Set NVIM_DEMO to a checkout's
 # bin/nvim-demo to use that instead.
@@ -25,7 +25,7 @@ else
     if [ ! -x "$demo" ]; then
         mkdir -p "${tool%/*}"
         git clone --depth 1 \
-            https://github.com/mbfoss/nvim-demo-generator "$tool"
+            https://github.com/<owner>/nvim-demo-generator "$tool"
     fi
 fi
 

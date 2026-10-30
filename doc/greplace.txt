@@ -51,7 +51,7 @@ panel also undoes the panel write, and writing again reverts the source.
 **lazy.nvim**
 
 >lua
-    { "mbfoss/greplace.nvim", cmd = { "Gsearch", "Greplace" } }
+    { "<owner>/greplace.nvim", cmd = { "Gsearch", "Greplace" } }
 <
 
 `setup()` is optional; the commands register themselves and nothing is loaded
